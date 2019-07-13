@@ -1,8 +1,56 @@
 /* Indonesia */
+.indonesiaFlag {
+    border: 2px solid;
+    height: 200px;
+    width: 300px;
+}
+.indonesiaStrip1 {
+    background-color: red;
+    height: 100px;
+}
 
 /* Colombia */
-
+.columbiaFlag {
+    margin-top: 50px;
+    border: 2px solid;
+    height: 25vh;
+    width: 300px;
+}
+.columbiaStrip1 {
+    background-color: gold;
+    height: 50%;
+}
+.columbiaStrip2,
+.columbiaStrip3 {
+    height: 25%;
+}
+.columbiaStrip2 {
+    background-color: mediumblue;
+}
+.columbiaStrip3 {
+    background-color: firebrick;
+}
 /* Ireland */
+.irelandFlag {
+    margin-top: 50px;
+    border: 2px solid;
+    height: 25vh;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.irishStrip3,
+.irishStrip2,
+.irishStrip1 {
+    width: 33%;
+}
+.irishStrip1 {
+    background-color: mediumseagreen;
+}
+.irishStrip3 {
+    background-color: orangered;
+    width: 33%;
+}
 
 /* France */
 
