@@ -1,60 +1,89 @@
 /* Indonesia */
-.indonesiaFlag {
+.flagContainer {
     border: 2px solid;
-    height: 200px;
-    width: 300px;
+    height: 400px;
+    width: 600px;
+    margin-bottom: 50px;
 }
 .indonesiaStrip1 {
     background-color: red;
-    height: 100px;
+    height: 200px;
 }
 
 /* Colombia */
-.columbiaFlag {
-    margin-top: 50px;
-    border: 2px solid;
-    height: 25vh;
-    width: 300px;
-}
-.columbiaStrip1 {
+.columbiaStripe1 {
     background-color: gold;
     height: 50%;
 }
-.columbiaStrip2,
-.columbiaStrip3 {
+.columbiaStripe2,
+.columbiaStripe3 {
     height: 25%;
 }
-.columbiaStrip2 {
+.columbiaStripe2 {
     background-color: mediumblue;
 }
-.columbiaStrip3 {
+.columbiaStripe3 {
     background-color: firebrick;
 }
 /* Ireland */
-.irelandFlag {
-    margin-top: 50px;
-    border: 2px solid;
-    height: 25vh;
-    width: 300px;
+#ireland {
     display: flex;
     justify-content: space-between;
 }
-.irishStrip3,
-.irishStrip2,
-.irishStrip1 {
+#ireland > * {
     width: 33%;
 }
-.irishStrip1 {
+.irishStripe1 {
     background-color: mediumseagreen;
 }
-.irishStrip3 {
+.irishStripe3 {
     background-color: orangered;
     width: 33%;
 }
-
 /* France */
+#france {
+    font-size: 0;
+}
+
+#france > * {
+    font-size: 0;
+    height: 100%;
+    width: 33.3%;
+    display: inline-block;
+}
+
+.blue {
+    background-color: midnightblue;
+}
+.red {
+    background-color: red;
+}
 
 /* Benin */
+.horizontal,
+.vertical {
+    height: 100%;
+}
+
+.vertical {
+    width: 40%;
+    float: left;
+    background-color: forestgreen
+}
+
+.horizontal {
+    width: 60%;
+    float: right;
+    background-color: red;
+}
+
+.yellow {
+    height: 50%;
+    width: 100%;
+    background-color: gold;
+}
+
+
 
 /* Sweden */
 
